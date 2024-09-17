@@ -234,7 +234,7 @@ static void zmk_rgb_underglow_central_send() {
 
 #define NUM_BT_COLORS 4
 
-static const struct led_rgb BT_COLORS[NUM_BT_COLORS] = {LED_RGB(0xFFFFFF), LED_RGB(0x0000FF),
+static const struct led_rgb BT_COLORS[NUM_BT_COLORS] = {LED_RGB(0x00FFFF), LED_RGB(0x0000FF),
                                                         LED_RGB(0xFF0000), LED_RGB(0x00FF00)};
 #endif
 
