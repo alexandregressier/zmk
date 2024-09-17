@@ -16,3 +16,6 @@ __pycache__
 
 # clangd
 app/.cache/
+
+# JetBrains IDEs
+.idea/
