@@ -239,8 +239,8 @@ static const struct led_rgb BT_COLORS[NUM_BT_COLORS] = {LED_RGB(0x00FFFF), LED_R
 #endif
 
 static const struct led_rgb LAYER_COLORS[8] = {
-    LED_RGB(0x000000), LED_RGB(0xFFFFFF), LED_RGB(0x0000FF), LED_RGB(0x00FF00),
-    LED_RGB(0xFF0000), LED_RGB(0xFF00FF), LED_RGB(0x00FFFF), LED_RGB(0xFFFF00)};
+    LED_RGB(0x000000), LED_RGB(0x00FFFF), LED_RGB(0xFF0000), LED_RGB(0x0000FF),  // K C R B
+    LED_RGB(0xFFFFFF), LED_RGB(0x00FF00), LED_RGB(0xFFFF00), LED_RGB(0xFF00FF)}; // W G Y M
 
 // Formulas chosen so that for the first 8 layers both left and right modules show the same color,
 // then as the layer number increases the right module color cycles through until "wrapping around",
